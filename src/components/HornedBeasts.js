@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
 class HornedBeasts extends React.Component {
-    render() {
-        return (
-          <h1>Author: Suhaib Ersan</h1>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h2>{this.props.title}</h2>
+        <img src={this.props.imageUrl} alt="" title=""></img>
+        <p>{this.props.description}</p>
+      </div>
+    );
+  }
 }
 
 export default HornedBeasts;
