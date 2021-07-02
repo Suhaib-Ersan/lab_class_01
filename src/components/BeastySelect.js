@@ -4,7 +4,7 @@ import { Modal, Button, Card } from "react-bootstrap/";
 class BeastySelect extends React.Component {
   render() {
     return (
-      <div>
+      <div className="BeastySelect">
         <Modal show={this.props.show} onHide={this.props.handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>{this.props.selectedAnimal.title}</Modal.Title>

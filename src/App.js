@@ -35,9 +35,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <Header />
-        <Main renderModal={this.renderModal}/>
+        <Main renderModal={this.renderModal} />
         <BeastySelect show={this.state.show} handleClose={this.handleClose} selectedAnimal={this.state.selectedAnimal} />
         <Footer />
       </div>
